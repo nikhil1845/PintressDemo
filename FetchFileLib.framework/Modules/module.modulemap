@@ -1,0 +1,11 @@
+framework module FetchFileLib {
+  umbrella header "FetchFileLib.h"
+
+  export *
+  module * { export * }
+}
+
+module FetchFileLib.Swift {
+    header "FetchFileLib-Swift.h"
+    requires objc
+}
