@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87484E0C21F1C613007F9E3A /* FetchFileLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87484E0B21F1C613007F9E3A /* FetchFileLib.framework */; };
+		87484E0D21F1C673007F9E3A /* FetchFileLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87484E0B21F1C613007F9E3A /* FetchFileLib.framework */; };
+		87484E0E21F1C673007F9E3A /* FetchFileLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87484E0B21F1C613007F9E3A /* FetchFileLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		874B197D21EC5F8D004209D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B197C21EC5F8D004209D9 /* AppDelegate.swift */; };
 		874B197F21EC5F8D004209D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B197E21EC5F8D004209D9 /* ViewController.swift */; };
 		874B198221EC5F8D004209D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874B198021EC5F8D004209D9 /* Main.storyboard */; };
@@ -23,6 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				87484E0E21F1C673007F9E3A /* FetchFileLib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		87484E0B21F1C613007F9E3A /* FetchFileLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FetchFileLib.framework; sourceTree = "<group>"; };
 		874B197921EC5F8D004209D9 /* pinImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874B197C21EC5F8D004209D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		874B197E21EC5F8D004209D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87484E0C21F1C613007F9E3A /* FetchFileLib.framework in Frameworks */,
+				87484E0D21F1C673007F9E3A /* FetchFileLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +64,7 @@
 			children = (
 				874B197B21EC5F8D004209D9 /* pinImage */,
 				874B197A21EC5F8D004209D9 /* Products */,
+				87484E0B21F1C613007F9E3A /* FetchFileLib.framework */,
 			);
 			sourceTree = "<group>";
 		};
